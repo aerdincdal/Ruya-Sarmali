@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A691D8E52089DB6706A17A /* InterpretationResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31B55D6C0F9DC800999DDE9 /* InterpretationResultView.swift */; };
+		215F5B97AC20C9DA99DE4757 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B291C8591AEDB075C5C621 /* AppServices.swift */; };
+		28BEF58984186FFAAB97FB63 /* InstagramStoryGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC3163EF681CBA6DB5FCC3 /* InstagramStoryGenerator.swift */; };
+		2B1A3FADF9B0D43A5E58BF12 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81C996840726AD0E370083B3 /* Localizable.strings */; };
+		2F6D7A12D0FCA183C26E524F /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28045FC1CBEC10B42D493D36 /* OTPVerificationView.swift */; };
+		401F414D80E7325FCA82FD90 /* MoodTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E286E1353C038D93AF6378C0 /* MoodTrackerView.swift */; };
+		61624467ED9B625F424A9A55 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DCCACF566CF355FB6B5EE0 /* Localizable.strings */; };
+		895353E14034D0048868E70E /* DreamInterpretationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EBB9DEF580C7456B4DD03 /* DreamInterpretationsView.swift */; };
+		A4CF932758EE06BF22DFE858 /* InterpretationMethodCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D850D4FDD2C631E5CB74201 /* InterpretationMethodCard.swift */; };
+		EE70231A7B254DF60D400294 /* InterpretationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC6016053C5C6F6D6D214B /* InterpretationMethod.swift */; };
+		F5EE255F02A859C44CACE446 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62739D3DA28B2DEB13A0B18C /* LocalizationManager.swift */; };
+		F9E4A0000000000000000200 /* RuyaSarmaliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000100 /* RuyaSarmaliApp.swift */; };
+		F9E4A0000000000000000201 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000101 /* AppState.swift */; };
+		F9E4A0000000000000000202 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000102 /* AppRootView.swift */; };
+		F9E4A0000000000000000203 /* SplashSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000103 /* SplashSequenceView.swift */; };
+		F9E4A0000000000000000204 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000104 /* OnboardingView.swift */; };
+		F9E4A0000000000000000205 /* MainExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000105 /* MainExperienceView.swift */; };
+		F9E4A0000000000000000206 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000106 /* RegistrationView.swift */; };
+		F9E4A0000000000000000207 /* ForgotPasswordFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000107 /* ForgotPasswordFlow.swift */; };
+		F9E4A0000000000000000208 /* DreamNarrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000108 /* DreamNarrationView.swift */; };
+		F9E4A0000000000000000209 /* DreamGenerationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000109 /* DreamGenerationViewModel.swift */; };
+		F9E4A000000000000000020A /* DreamVideoSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000010A /* DreamVideoSynthesizer.swift */; };
+		F9E4A000000000000000020B /* DreamHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000010B /* DreamHistoryView.swift */; };
+		F9E4A000000000000000020C /* VideoPlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000010C /* VideoPlaybackView.swift */; };
+		F9E4A000000000000000020D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000010D /* SettingsView.swift */; };
+		F9E4A000000000000000020E /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000010E /* ThemeManager.swift */; };
+		F9E4A000000000000000020F /* AstroBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000010F /* AstroBackgroundView.swift */; };
+		F9E4A0000000000000000210 /* LiquidGlassButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000110 /* LiquidGlassButtonStyle.swift */; };
+		F9E4A0000000000000000211 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000111 /* Models.swift */; };
+		F9E4A0000000000000000212 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000112 /* ShareSheet.swift */; };
+		F9E4A0000000000000000213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000113 /* Assets.xcassets */; };
+		F9E4A0000000000000000214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000114 /* LaunchScreen.storyboard */; };
+		F9E4A0000000000000000215 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000116 /* Preview Assets.xcassets */; };
+		F9E4A0000000000000000216 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000117 /* Secrets.swift */; };
+		F9E4A0000000000000000217 /* LumaAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000118 /* LumaAIService.swift */; };
+		F9E4A0000000000000000218 /* DreamInterpretationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000119 /* DreamInterpretationService.swift */; };
+		F9E4A0000000000000000219 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000011A /* SupabaseService.swift */; };
+		F9E4A000000000000000021A /* DreamBackendCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000011B /* DreamBackendCoordinator.swift */; };
+		F9E4A000000000000000021B /* SQLiteDreamStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000011C /* SQLiteDreamStore.swift */; };
+		F9E4A000000000000000021C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000011D /* libsqlite3.tbd */; };
+		F9E4A000000000000000021D /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000011E /* KeychainStore.swift */; };
+		F9E4A000000000000000021E /* CreditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A000000000000000011F /* CreditManager.swift */; };
+		F9E4A000000000000000021F /* CreditStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000120 /* CreditStore.swift */; };
+		F9E4A0000000000000000220 /* CreditPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000121 /* CreditPaywallView.swift */; };
+		F9E4A0000000000000000221 /* SupabaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000122 /* SupabaseAuthService.swift */; };
+		F9E4A0000000000000000222 /* AppleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000123 /* AppleSignInButton.swift */; };
+		F9E4A0000000000000000223 /* VideoWatermarkProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4A0000000000000000124 /* VideoWatermarkProcessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22B291C8591AEDB075C5C621 /* AppServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		28045FC1CBEC10B42D493D36 /* OTPVerificationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		43BC6016053C5C6F6D6D214B /* InterpretationMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InterpretationMethod.swift; sourceTree = "<group>"; };
+		62739D3DA28B2DEB13A0B18C /* LocalizationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		6D850D4FDD2C631E5CB74201 /* InterpretationMethodCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InterpretationMethodCard.swift; sourceTree = "<group>"; };
+		725EBB9DEF580C7456B4DD03 /* DreamInterpretationsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DreamInterpretationsView.swift; sourceTree = "<group>"; };
+		81C996840726AD0E370083B3 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A31B55D6C0F9DC800999DDE9 /* InterpretationResultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InterpretationResultView.swift; sourceTree = "<group>"; };
+		A5CC3163EF681CBA6DB5FCC3 /* InstagramStoryGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InstagramStoryGenerator.swift; sourceTree = "<group>"; };
+		B5DCCACF566CF355FB6B5EE0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E286E1353C038D93AF6378C0 /* MoodTrackerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MoodTrackerView.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000015 /* RuyaSarmali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuyaSarmali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E4A0000000000000000100 /* RuyaSarmaliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuyaSarmaliApp.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000101 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000102 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000103 /* SplashSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashSequenceView.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000104 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000105 /* MainExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainExperienceView.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000106 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000107 /* ForgotPasswordFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordFlow.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000108 /* DreamNarrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNarrationView.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000109 /* DreamGenerationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamGenerationViewModel.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000010A /* DreamVideoSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamVideoSynthesizer.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000010B /* DreamHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamHistoryView.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000010C /* VideoPlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlaybackView.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000010D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000010E /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000010F /* AstroBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroBackgroundView.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000110 /* LiquidGlassButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassButtonStyle.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000111 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000112 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9E4A0000000000000000114 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9E4A0000000000000000115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E4A0000000000000000116 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9E4A0000000000000000117 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000118 /* LumaAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumaAIService.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000119 /* DreamInterpretationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamInterpretationService.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000011A /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000011B /* DreamBackendCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamBackendCoordinator.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000011C /* SQLiteDreamStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDreamStore.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000011D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F9E4A000000000000000011E /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		F9E4A000000000000000011F /* CreditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditManager.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000120 /* CreditStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditStore.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000121 /* CreditPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditPaywallView.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000122 /* SupabaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseAuthService.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000123 /* AppleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInButton.swift; sourceTree = "<group>"; };
+		F9E4A0000000000000000124 /* VideoWatermarkProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWatermarkProcessor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9E4A000000000000000000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E4A000000000000000021C /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4451C11203CECFDCBF39CC83 /* Interpretations */ = {
+			isa = PBXGroup;
+			children = (
+				43BC6016053C5C6F6D6D214B /* InterpretationMethod.swift */,
+				725EBB9DEF580C7456B4DD03 /* DreamInterpretationsView.swift */,
+				6D850D4FDD2C631E5CB74201 /* InterpretationMethodCard.swift */,
+				A31B55D6C0F9DC800999DDE9 /* InterpretationResultView.swift */,
+			);
+			name = Interpretations;
+			path = Interpretations;
+			sourceTree = "<group>";
+		};
+		D3851BB79829FA0CA3791E64 /* tr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				81C996840726AD0E370083B3 /* Localizable.strings */,
+			);
+			name = tr.lproj;
+			path = tr.lproj;
+			sourceTree = "<group>";
+		};
+		F0BE6F3B6426584EADD05199 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCCACF566CF355FB6B5EE0 /* Localizable.strings */,
+			);
+			name = en.lproj;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				F9E4A0000000000000000004 /* RuyaSarmali */,
+				F9E4A0000000000000000003 /* Products */,
+				F9E4A000000000000000011D /* libsqlite3.tbd */,
+			);
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A0000000000000000015 /* RuyaSarmali.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000004 /* RuyaSarmali */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A0000000000000000100 /* RuyaSarmaliApp.swift */,
+				F9E4A0000000000000000005 /* AppFlow */,
+				F9E4A0000000000000000006 /* Auth */,
+				F9E4A0000000000000000007 /* Dreams */,
+				F9E4A0000000000000000008 /* Settings */,
+				F9E4A0000000000000000009 /* Shared */,
+				F9E4A0000000000000000018 /* Credits */,
+				F9E4A0000000000000000016 /* Network */,
+				F9E4A0000000000000000017 /* Storage */,
+				F9E4A0000000000000000113 /* Assets.xcassets */,
+				F9E4A0000000000000000114 /* LaunchScreen.storyboard */,
+				F9E4A0000000000000000115 /* Info.plist */,
+				F9E4A000000000000000000A /* Preview Content */,
+				4451C11203CECFDCBF39CC83 /* Interpretations */,
+				D3851BB79829FA0CA3791E64 /* tr.lproj */,
+				F0BE6F3B6426584EADD05199 /* en.lproj */,
+			);
+			path = RuyaSarmali;
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000005 /* AppFlow */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A0000000000000000101 /* AppState.swift */,
+				F9E4A0000000000000000102 /* AppRootView.swift */,
+				F9E4A0000000000000000103 /* SplashSequenceView.swift */,
+				F9E4A0000000000000000104 /* OnboardingView.swift */,
+				F9E4A0000000000000000105 /* MainExperienceView.swift */,
+			);
+			path = AppFlow;
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000006 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A0000000000000000106 /* RegistrationView.swift */,
+				F9E4A0000000000000000107 /* ForgotPasswordFlow.swift */,
+				F9E4A0000000000000000123 /* AppleSignInButton.swift */,
+				28045FC1CBEC10B42D493D36 /* OTPVerificationView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000007 /* Dreams */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A0000000000000000108 /* DreamNarrationView.swift */,
+				F9E4A0000000000000000109 /* DreamGenerationViewModel.swift */,
+				F9E4A000000000000000010A /* DreamVideoSynthesizer.swift */,
+				F9E4A000000000000000010B /* DreamHistoryView.swift */,
+				F9E4A000000000000000010C /* VideoPlaybackView.swift */,
+				F9E4A0000000000000000124 /* VideoWatermarkProcessor.swift */,
+				E286E1353C038D93AF6378C0 /* MoodTrackerView.swift */,
+			);
+			path = Dreams;
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000008 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A000000000000000010D /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000009 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A000000000000000010E /* ThemeManager.swift */,
+				F9E4A000000000000000010F /* AstroBackgroundView.swift */,
+				F9E4A0000000000000000110 /* LiquidGlassButtonStyle.swift */,
+				F9E4A0000000000000000111 /* Models.swift */,
+				F9E4A0000000000000000112 /* ShareSheet.swift */,
+				F9E4A000000000000000011E /* KeychainStore.swift */,
+				A5CC3163EF681CBA6DB5FCC3 /* InstagramStoryGenerator.swift */,
+				22B291C8591AEDB075C5C621 /* AppServices.swift */,
+				62739D3DA28B2DEB13A0B18C /* LocalizationManager.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F9E4A000000000000000000A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A0000000000000000116 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000016 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A0000000000000000117 /* Secrets.swift */,
+				F9E4A0000000000000000118 /* LumaAIService.swift */,
+				F9E4A0000000000000000119 /* DreamInterpretationService.swift */,
+				F9E4A000000000000000011A /* SupabaseService.swift */,
+				F9E4A0000000000000000122 /* SupabaseAuthService.swift */,
+				F9E4A000000000000000011B /* DreamBackendCoordinator.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000017 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A000000000000000011C /* SQLiteDreamStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		F9E4A0000000000000000018 /* Credits */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4A000000000000000011F /* CreditManager.swift */,
+				F9E4A0000000000000000120 /* CreditStore.swift */,
+				F9E4A0000000000000000121 /* CreditPaywallView.swift */,
+			);
+			path = Credits;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9E4A000000000000000000B /* RuyaSarmali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E4A0000000000000000010 /* Build configuration list for PBXNativeTarget "RuyaSarmali" */;
+			buildPhases = (
+				F9E4A000000000000000000C /* Sources */,
+				F9E4A000000000000000000D /* Frameworks */,
+				F9E4A000000000000000000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuyaSarmali;
+			productName = RuyaSarmali;
+			productReference = F9E4A0000000000000000015 /* RuyaSarmali.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E4A0000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = F9E4A000000000000000000F /* Build configuration list for PBXProject "RuyaSarmali" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9E4A0000000000000000002;
+			productRefGroup = F9E4A0000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E4A000000000000000000B /* RuyaSarmali */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E4A000000000000000000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E4A0000000000000000213 /* Assets.xcassets in Resources */,
+				F9E4A0000000000000000214 /* LaunchScreen.storyboard in Resources */,
+				F9E4A0000000000000000215 /* Preview Assets.xcassets in Resources */,
+				2B1A3FADF9B0D43A5E58BF12 /* Localizable.strings in Resources */,
+				61624467ED9B625F424A9A55 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9E4A000000000000000000C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E4A000000000000000021D /* KeychainStore.swift in Sources */,
+				F9E4A000000000000000021E /* CreditManager.swift in Sources */,
+				F9E4A000000000000000021F /* CreditStore.swift in Sources */,
+				F9E4A0000000000000000220 /* CreditPaywallView.swift in Sources */,
+				F9E4A000000000000000021B /* SQLiteDreamStore.swift in Sources */,
+				F9E4A0000000000000000216 /* Secrets.swift in Sources */,
+				F9E4A0000000000000000217 /* LumaAIService.swift in Sources */,
+				F9E4A0000000000000000218 /* DreamInterpretationService.swift in Sources */,
+				F9E4A0000000000000000219 /* SupabaseService.swift in Sources */,
+				F9E4A000000000000000021A /* DreamBackendCoordinator.swift in Sources */,
+				F9E4A0000000000000000200 /* RuyaSarmaliApp.swift in Sources */,
+				F9E4A0000000000000000201 /* AppState.swift in Sources */,
+				F9E4A0000000000000000202 /* AppRootView.swift in Sources */,
+				F9E4A0000000000000000203 /* SplashSequenceView.swift in Sources */,
+				F9E4A0000000000000000204 /* OnboardingView.swift in Sources */,
+				F9E4A0000000000000000205 /* MainExperienceView.swift in Sources */,
+				F9E4A0000000000000000206 /* RegistrationView.swift in Sources */,
+				F9E4A0000000000000000207 /* ForgotPasswordFlow.swift in Sources */,
+				F9E4A0000000000000000208 /* DreamNarrationView.swift in Sources */,
+				F9E4A0000000000000000209 /* DreamGenerationViewModel.swift in Sources */,
+				F9E4A000000000000000020A /* DreamVideoSynthesizer.swift in Sources */,
+				F9E4A000000000000000020B /* DreamHistoryView.swift in Sources */,
+				F9E4A000000000000000020C /* VideoPlaybackView.swift in Sources */,
+				F9E4A0000000000000000223 /* VideoWatermarkProcessor.swift in Sources */,
+				F9E4A000000000000000020D /* SettingsView.swift in Sources */,
+				F9E4A000000000000000020E /* ThemeManager.swift in Sources */,
+				F9E4A000000000000000020F /* AstroBackgroundView.swift in Sources */,
+				F9E4A0000000000000000210 /* LiquidGlassButtonStyle.swift in Sources */,
+				F9E4A0000000000000000211 /* Models.swift in Sources */,
+				F9E4A0000000000000000212 /* ShareSheet.swift in Sources */,
+				F9E4A0000000000000000221 /* SupabaseAuthService.swift in Sources */,
+				F9E4A0000000000000000222 /* AppleSignInButton.swift in Sources */,
+				EE70231A7B254DF60D400294 /* InterpretationMethod.swift in Sources */,
+				895353E14034D0048868E70E /* DreamInterpretationsView.swift in Sources */,
+				A4CF932758EE06BF22DFE858 /* InterpretationMethodCard.swift in Sources */,
+				06A691D8E52089DB6706A17A /* InterpretationResultView.swift in Sources */,
+				2F6D7A12D0FCA183C26E524F /* OTPVerificationView.swift in Sources */,
+				28BEF58984186FFAAB97FB63 /* InstagramStoryGenerator.swift in Sources */,
+				401F414D80E7325FCA82FD90 /* MoodTrackerView.swift in Sources */,
+				215F5B97AC20C9DA99DE4757 /* AppServices.swift in Sources */,
+				F5EE255F02A859C44CACE446 /* LocalizationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9E4A0000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F9E4A0000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F9E4A0000000000000000013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 247559XC2K;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RuyaSarmali/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rüya Sarmalı";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirleon.ruyasal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F9E4A0000000000000000014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 247559XC2K;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RuyaSarmali/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rüya Sarmalı";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirleon.ruyasal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9E4A000000000000000000F /* Build configuration list for PBXProject "RuyaSarmali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E4A0000000000000000011 /* Debug */,
+				F9E4A0000000000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E4A0000000000000000010 /* Build configuration list for PBXNativeTarget "RuyaSarmali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E4A0000000000000000013 /* Debug */,
+				F9E4A0000000000000000014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9E4A0000000000000000001 /* Project object */;
+}

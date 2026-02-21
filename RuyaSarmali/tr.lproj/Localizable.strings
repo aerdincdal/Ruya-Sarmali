@@ -1,0 +1,199 @@
+/* Rüya Sarmalı - Türkçe Dil Dosyası */
+
+// MARK: - Genel
+"app_name" = "Rüya Sarmalı";
+"close" = "Kapat";
+"done" = "Tamam";
+"cancel" = "İptal";
+"save" = "Kaydet";
+"delete" = "Sil";
+"share" = "Paylaş";
+"error" = "Hata";
+"success" = "Başarılı";
+"loading" = "Yükleniyor...";
+"retry" = "Tekrar Dene";
+
+// MARK: - Kayıt
+"registration_title" = "Rüyalarını Filme Dönüştür";
+"registration_subtitle" = "Her gece gördüğün sahneler, yapay zekâ ile sinematik hikayelere dönüşsün.";
+"email_label" = "E-posta Adresin";
+"email_placeholder" = "ornek@email.com";
+"email_hint" = "E-postana 6 haneli doğrulama kodu göndereceğiz.";
+"terms_accept" = "Kullanım koşullarını ve gizlilik politikasını kabul ediyorum";
+"terms_of_service" = "Kullanım Koşulları";
+"privacy_policy" = "Gizlilik Politikası";
+"send_code" = "Doğrulama Kodu Gönder";
+"quick_secure_login" = "Hızlı ve Güvenli Giriş";
+"no_password_needed" = "Şifre hatırlamana gerek yok. E-postanla kolayca giriş yap.";
+
+// MARK: - OTP
+"otp_title" = "Doğrulama Kodu";
+"otp_subtitle" = "%@ adresine gönderilen 6 haneli kodu girin";
+"otp_verify" = "Doğrula";
+"otp_resend" = "Kodu Tekrar Gönder";
+"otp_resend_in" = "Tekrar gönder (%ds)";
+"otp_invalid_or_expired" = "Kod hatalı veya süresi dolmuş. Yeni kod isteyin.";
+"otp_verification_failed" = "Doğrulama başarısız. Tekrar deneyin.";
+"otp_send_failed" = "Kod gönderilemedi. Tekrar deneyin.";
+
+// MARK: - Hatalar
+"error_too_many_attempts" = "Çok fazla deneme yaptınız. Lütfen biraz bekleyin.";
+"error_invalid_email" = "Geçersiz e-posta adresi.";
+"error_network" = "İnternet bağlantınızı kontrol edin.";
+"error_unknown" = "Bir hata oluştu. Lütfen tekrar deneyin.";
+
+// MARK: - Rüya Anlatımı
+"dream_narration_title" = "Rüyanı Anlat";
+"dream_narration_subtitle" = "Rüyalarını sinematik hikayelere dönüştür. Her gece gördüğün sahneler, yapay zekâ ile filme dönüşsün.";
+"dream_input_hint" = "Rüyanı detaylıca anlat, ne gördüğünü, ne hissettiğini yaz";
+"word_count" = "Kelime sayısı";
+"generate_video" = "Sinema Seviyesinde Üret";
+"generating" = "Rüya Üretiliyor";
+"credit_balance" = "Kredi Bakiyesi";
+"credits" = "kredi";
+"view_credit_packages" = "Kredi Paketlerini Gör";
+
+// MARK: - Rüya Tabirleri
+"interpretations_title" = "Rüya Tabirleri";
+"interpretations_subtitle" = "Rüyanı farklı perspektiflerden keşfet. Astrolojiden psikolojiye, İslami tabirden tarota kadar 6 farklı yorumlama yöntemi.";
+"write_dream" = "Rüyanı Yaz";
+"select_method" = "Yorumlama Yöntemi Seç";
+"interpreting" = "Yorumlanıyor...";
+
+// MARK: - Yorum Metodları
+"method_astrological" = "Astrolojik Yorum";
+"method_astrological_desc" = "Gezegen ve burç enerjileriyle";
+"method_islamic" = "İslami Tabir";
+"method_islamic_desc" = "Geleneksel kaynaklardan";
+"method_psychological" = "Psikolojik Analiz";
+"method_psychological_desc" = "Bilinçaltı analiziyle";
+"method_numerological" = "Numeroloji";
+"method_numerological_desc" = "Sayıların gizemiyle";
+"method_tarot" = "Tarot Eşleşmesi";
+"method_tarot_desc" = "Kozmik kartlarla";
+"method_mythological" = "Mitolojik Yorum";
+"method_mythological_desc" = "Antik sembollerle";
+
+// MARK: - Yorum Sonucu
+"your_interpretation" = "Yorumun";
+"relationship_message" = "İlişki Mesajı";
+"create_instagram_story" = "Instagram Story Oluştur";
+"share_on_instagram" = "Instagram'da Paylaş";
+"save_to_gallery" = "Galeriye Kaydet";
+"instagram_story" = "Instagram Story";
+
+// MARK: - Video Oynatma
+"saved_to_gallery" = "Kaydedildi";
+"video_saved_message" = "Video galeriye kaydedildi.";
+"show_more" = "Devamını Gör";
+"show_less" = "Kısalt";
+
+// MARK: - Ayarlar
+"settings" = "Ayarlar";
+"account_info" = "Hesap Bilgileri";
+"verified_account" = "Doğrulanmış Hesap";
+"sign_out" = "Çıkış Yap";
+"credit_and_premium" = "Kredi ve Premium";
+"current_balance" = "Mevcut Bakiye";
+"buy_credits" = "Kredi Satın Al";
+"notifications" = "Bildirimler";
+"daily_reminder" = "Günlük Rüya Hatırlatması";
+"daily_reminder_desc" = "Her sabah rüyanızı kaydetmenizi hatırlatırız";
+"ready_notification" = "Yorum Hazır Bildirimi";
+"ready_notification_desc" = "Video ve yorum hazır olduğunda bildirim al";
+"app_settings" = "Uygulama Ayarları";
+"sound_effects" = "Ses Efektleri";
+"sound_effects_desc" = "Buton ve animasyon sesleri";
+"haptic_feedback" = "Titreşim Geri Bildirimi";
+"haptic_feedback_desc" = "Dokunmatik geri bildirim";
+"auto_save" = "Otomatik Kaydet";
+"auto_save_desc" = "Videoları otomatik galeriye kaydet";
+"theme" = "Tema";
+"cosmic_purple" = "Kozmik Mor";
+"language" = "Dil";
+"privacy_and_security" = "Gizlilik ve Güvenlik";
+"data_encrypted" = "Veriler cihazında şifrelenir";
+"offline_supported" = "Çevrimdışı mod desteklenir";
+"no_third_party_sharing" = "Veriler üçüncü taraflarla paylaşılmaz";
+"delete_anytime" = "İstediğin zaman verilerini silebilirsin";
+"support" = "Destek";
+"contact_us" = "Bize Ulaşın";
+"rate_app" = "Uygulamayı Değerlendirin";
+"rate_app_desc" = "App Store'da 5 yıldız verin";
+"share_with_friend" = "Arkadaşınla Paylaş";
+"share_with_friend_desc" = "Rüya Sarmalı'yı önerin";
+"send_feedback" = "Geri Bildirim Gönder";
+"send_feedback_desc" = "Fikirlerinizi bekliyoruz";
+"how_to_use" = "Nasıl Kullanılır";
+"how_to_use_desc" = "Tanıtım videosunu izle";
+"about" = "Hakkında";
+"version" = "Sürüm";
+"developer" = "Geliştirici";
+"copyright" = "Telif Hakkı";
+"legal" = "Yasal";
+"open_source_licenses" = "Açık Kaynak Lisansları";
+"account_management" = "Hesap Yönetimi";
+"delete_account" = "Hesabımı Sil";
+"delete_account_confirm" = "Bu işlem geri alınamaz. Tüm rüyaların ve videoların silinecek.";
+"feedback_title" = "Geri bildiriminiz bizim için değerli!";
+"feedback_placeholder" = "Görüşlerinizi yazın...";
+"send" = "Gönder";
+
+// MARK: - Tab Bar
+"tab_dream" = "Rüya";
+"tab_interpretations" = "Tabirler";
+"tab_archive" = "Arşiv";
+"tab_settings" = "Ayarlar";
+
+// MARK: - Krediler
+"free_trials" = "İlk üç deneyim ücretsiz.";
+"credit_cost" = "Her üretim %d kredi tüketir.";
+
+// MARK: - Arşiv
+"no_videos_yet" = "Henüz kayıtlı videon yok";
+"start_your_collection" = "İlk rüyanı anlat ve koleksiyonunu başlat.";
+
+// MARK: - Kredi Paketleri
+"credit_packages_title" = "Kredi Paketleri";
+"boost_credits" = "Rüya kredilerini artır";
+"credit_packages_subtitle" = "İlk 3 üretim demo hediyemiz. Sonrasında kredi paketlerinden dilediğini seç.";
+"purchase_security" = "Satın almalar Apple hesabınla güvence altındadır.";
+"most_popular" = "En Popüler";
+"processing" = "İşleniyor...";
+"purchase" = "Satın Al";
+"credits_added" = "%d kredi eklendi. Keyifli rüyalar!";
+"info" = "Bilgi";
+"interpret_dream" = "Rüyanı Yorumlat";
+"current_dream" = "Mevcut Rüyan";
+
+// MARK: - Onboarding
+"onboarding_1_title" = "Anlat, Görselleştir";
+"onboarding_1_subtitle" = "Rüyanı kısaca anlat, biz onu sinematik bir videoya dönüştürelim.";
+"onboarding_2_title" = "Koşulsuz Güvenlik";
+"onboarding_2_subtitle" = "Tüm kayıtların şifreli ve cihazında saklanır, gizliliğin önceliğimiz.";
+"onboarding_3_title" = "Astro Yolculuk";
+"onboarding_3_subtitle" = "Gökyüzü elementleri ve sıvı cam arayüz, seni mistik bir atmosfere davet eder.";
+"onboarding_4_title" = "Paylaş ve İlham Ol";
+"onboarding_4_subtitle" = "Videolarını Instagram veya TikTok'ta paylaşarak başkalarına ilham ver.";
+"start" = "Başla";
+"next" = "İleri";
+"skip" = "Geç";
+
+// MARK: - Splash
+"splash_1_title" = "Rüya Sarmalı";
+"splash_1_subtitle" = "Hayallerini gökyüzüne taşı";
+"splash_2_title" = "Sinematik Üretim";
+"splash_2_subtitle" = "Astro algoritma videoları oluşturuyor";
+"splash_3_title" = "Paylaşılabilir Anlar";
+"splash_3_subtitle" = "TikTok ve Instagram için hazır";
+"splash_4_title" = "Sessiz Güvenlik";
+"splash_4_subtitle" = "Verilerin cihazında güvende";
+"splash_5_title" = "Hazırsın";
+"splash_5_subtitle" = "Mistik yolculuk başlıyor";
+
+// MARK: - Diğer
+"dream_becoming_video" = "Rüyan filme dönüşüyor...";
+"dream_summary" = "🌙 Rüya Özeti";
+"astro_interpretation" = "Rüyanın Astrolojik Yorumunu Gör";
+"astro_interpretation_hint" = "Rüyanın sembollerini çözümle, gizli mesajları keşfet.";
+"dream_detail_prompt" = "Lütfen rüyanı biraz daha detaylandır.";

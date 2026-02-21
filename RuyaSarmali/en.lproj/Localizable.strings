@@ -1,0 +1,199 @@
+/* Rüya Sarmalı - English Language File */
+
+// MARK: - General
+"app_name" = "Dream Spiral";
+"close" = "Close";
+"done" = "Done";
+"cancel" = "Cancel";
+"save" = "Save";
+"delete" = "Delete";
+"share" = "Share";
+"error" = "Error";
+"success" = "Success";
+"loading" = "Loading...";
+"retry" = "Retry";
+
+// MARK: - Registration
+"registration_title" = "Turn Your Dreams Into Films";
+"registration_subtitle" = "Let nighttime visions transform into cinematic stories with AI.";
+"email_label" = "Your Email";
+"email_placeholder" = "example@email.com";
+"email_hint" = "We'll send a 6-digit verification code to your email.";
+"terms_accept" = "I accept the terms of service and privacy policy";
+"terms_of_service" = "Terms of Service";
+"privacy_policy" = "Privacy Policy";
+"send_code" = "Send Verification Code";
+"quick_secure_login" = "Quick and Secure Login";
+"no_password_needed" = "No password needed. Sign in easily with your email.";
+
+// MARK: - OTP
+"otp_title" = "Verification Code";
+"otp_subtitle" = "Enter the 6-digit code sent to %@";
+"otp_verify" = "Verify";
+"otp_resend" = "Resend Code";
+"otp_resend_in" = "Resend in (%ds)";
+"otp_invalid_or_expired" = "Invalid or expired code. Request a new one.";
+"otp_verification_failed" = "Verification failed. Please try again.";
+"otp_send_failed" = "Failed to send code. Please try again.";
+
+// MARK: - Errors
+"error_too_many_attempts" = "Too many attempts. Please wait a moment.";
+"error_invalid_email" = "Invalid email address.";
+"error_network" = "Check your internet connection.";
+"error_unknown" = "An error occurred. Please try again.";
+
+// MARK: - Dream Narration
+"dream_narration_title" = "Tell Your Dream";
+"dream_narration_subtitle" = "Transform your dreams into cinematic stories. Let AI turn your nighttime visions into films.";
+"dream_input_hint" = "Describe your dream in detail, what you saw, what you felt";
+"word_count" = "Word count";
+"generate_video" = "Generate Cinema-Quality Video";
+"generating" = "Generating Dream";
+"credit_balance" = "Credit Balance";
+"credits" = "credits";
+"view_credit_packages" = "View Credit Packages";
+
+// MARK: - Dream Interpretations
+"interpretations_title" = "Dream Interpretations";
+"interpretations_subtitle" = "Explore your dream from different perspectives. From astrology to psychology, Islamic interpretation to tarot - 6 unique methods.";
+"write_dream" = "Write Your Dream";
+"select_method" = "Select Interpretation Method";
+"interpreting" = "Interpreting...";
+
+// MARK: - Interpretation Methods
+"method_astrological" = "Astrological";
+"method_astrological_desc" = "With planetary energies";
+"method_islamic" = "Islamic Interpretation";
+"method_islamic_desc" = "From traditional sources";
+"method_psychological" = "Psychological Analysis";
+"method_psychological_desc" = "Subconscious analysis";
+"method_numerological" = "Numerology";
+"method_numerological_desc" = "Mystery of numbers";
+"method_tarot" = "Tarot Matching";
+"method_tarot_desc" = "With cosmic cards";
+"method_mythological" = "Mythological";
+"method_mythological_desc" = "With ancient symbols";
+
+// MARK: - Interpretation Result
+"your_interpretation" = "Your Interpretation";
+"relationship_message" = "Relationship Message";
+"create_instagram_story" = "Create Instagram Story";
+"share_on_instagram" = "Share on Instagram";
+"save_to_gallery" = "Save to Gallery";
+"instagram_story" = "Instagram Story";
+
+// MARK: - Video Playback
+"saved_to_gallery" = "Saved";
+"video_saved_message" = "Video saved to gallery.";
+"show_more" = "Show More";
+"show_less" = "Show Less";
+
+// MARK: - Settings
+"settings" = "Settings";
+"account_info" = "Account Info";
+"verified_account" = "Verified Account";
+"sign_out" = "Sign Out";
+"credit_and_premium" = "Credits & Premium";
+"current_balance" = "Current Balance";
+"buy_credits" = "Buy Credits";
+"notifications" = "Notifications";
+"daily_reminder" = "Daily Dream Reminder";
+"daily_reminder_desc" = "We'll remind you to record your dream every morning";
+"ready_notification" = "Ready Notification";
+"ready_notification_desc" = "Get notified when video and interpretation are ready";
+"app_settings" = "App Settings";
+"sound_effects" = "Sound Effects";
+"sound_effects_desc" = "Button and animation sounds";
+"haptic_feedback" = "Haptic Feedback";
+"haptic_feedback_desc" = "Touch feedback vibration";
+"auto_save" = "Auto Save";
+"auto_save_desc" = "Automatically save videos to gallery";
+"theme" = "Theme";
+"cosmic_purple" = "Cosmic Purple";
+"language" = "Language";
+"privacy_and_security" = "Privacy & Security";
+"data_encrypted" = "Data is encrypted on your device";
+"offline_supported" = "Offline mode supported";
+"no_third_party_sharing" = "Data is not shared with third parties";
+"delete_anytime" = "Delete your data anytime";
+"support" = "Support";
+"contact_us" = "Contact Us";
+"rate_app" = "Rate the App";
+"rate_app_desc" = "Give us 5 stars on the App Store";
+"share_with_friend" = "Share with Friend";
+"share_with_friend_desc" = "Recommend Dream Spiral";
+"send_feedback" = "Send Feedback";
+"send_feedback_desc" = "Share your thoughts with us";
+"how_to_use" = "How to Use";
+"how_to_use_desc" = "Watch the tutorial video";
+"about" = "About";
+"version" = "Version";
+"developer" = "Developer";
+"copyright" = "Copyright";
+"legal" = "Legal";
+"open_source_licenses" = "Open Source Licenses";
+"account_management" = "Account Management";
+"delete_account" = "Delete My Account";
+"delete_account_confirm" = "This action cannot be undone. All your dreams and videos will be deleted.";
+"feedback_title" = "Your feedback is valuable to us!";
+"feedback_placeholder" = "Write your thoughts...";
+"send" = "Send";
+
+// MARK: - Tab Bar
+"tab_dream" = "Dream";
+"tab_interpretations" = "Interpret";
+"tab_archive" = "Archive";
+"tab_settings" = "Settings";
+
+// MARK: - Credits
+"free_trials" = "First three experiences are free.";
+"credit_cost" = "Each generation costs %d credits.";
+
+// MARK: - Archive
+"no_videos_yet" = "No saved videos yet";
+"start_your_collection" = "Tell your first dream and start your collection.";
+
+// MARK: - Credit Packages
+"credit_packages_title" = "Credit Packages";
+"boost_credits" = "Boost your dream credits";
+"credit_packages_subtitle" = "First 3 generations are our gift. Choose any package to keep creating.";
+"purchase_security" = "Purchases are secured by your Apple account.";
+"most_popular" = "Most Popular";
+"processing" = "Processing...";
+"purchase" = "Purchase";
+"credits_added" = "%d credits added. Enjoy your dreams!";
+"info" = "Info";
+"interpret_dream" = "Interpret Your Dream";
+"current_dream" = "Current Dream";
+
+// MARK: - Onboarding
+"onboarding_1_title" = "Describe, Visualize";
+"onboarding_1_subtitle" = "Tell your dream briefly, we'll turn it into a cinematic video.";
+"onboarding_2_title" = "Unconditional Security";
+"onboarding_2_subtitle" = "All your data is encrypted and stored on your device.";
+"onboarding_3_title" = "Astro Journey";
+"onboarding_3_subtitle" = "Sky elements and liquid glass interface invite you to a mystical atmosphere.";
+"onboarding_4_title" = "Share & Inspire";
+"onboarding_4_subtitle" = "Inspire others by sharing your videos on Instagram or TikTok.";
+"start" = "Start";
+"next" = "Next";
+"skip" = "Skip";
+
+// MARK: - Splash
+"splash_1_title" = "Dream Spiral";
+"splash_1_subtitle" = "Carry your dreams to the sky";
+"splash_2_title" = "Cinematic Production";
+"splash_2_subtitle" = "Astro algorithm creating videos";
+"splash_3_title" = "Shareable Moments";
+"splash_3_subtitle" = "Ready for TikTok and Instagram";
+"splash_4_title" = "Silent Security";
+"splash_4_subtitle" = "Your data is safe on device";
+"splash_5_title" = "You're Ready";
+"splash_5_subtitle" = "The mystical journey begins";
+
+// MARK: - Other
+"dream_becoming_video" = "Your dream is becoming a video...";
+"dream_summary" = "🌙 Dream Summary";
+"astro_interpretation" = "See Astrological Interpretation";
+"astro_interpretation_hint" = "Decode dream symbols, discover hidden messages.";
+"dream_detail_prompt" = "Please add more detail to your dream.";
